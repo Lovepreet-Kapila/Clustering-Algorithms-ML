@@ -1,0 +1,1 @@
+A hands-on exploration of clustering techniques including DBSCAN, KMeans, and PCA-based visualization. This project demonstrates how unsupervised learning algorithms group data based on similarity and structure, using Python and scikit-learn.
