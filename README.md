@@ -44,7 +44,11 @@ Helps to see how well the clustering algorithms actually separated the data.
 Reduces noise by filtering out dimensions with low variance.
 
 **What I Learned**
+
 **No "One-Size-Fits-All":** The choice of clustering algorithm is critical. KMeans failed where DBSCAN succeeded (and vice-versa) depending on the data's shape and density.
+
 **Hyperparameter Tuning:** Learned the impact of tuning $k$ in KMeans (using the elbow plot) and eps in DBSCAN, which completely changes the cluster results.
+
 **DBSCAN for Noise:** Discovered that DBSCAN is a powerful tool for outlier detection, which is something KMeans cannot do natively.
+
 **PCA is for Visualization:** Realized how difficult it is to "see" clusters without a tool like PCA. It's an essential technique for interpreting unsupervised models.
