@@ -21,21 +21,24 @@ Compare and contrast the results of density-based vs. centroid-based clustering.
 **Techniques Explored**:
 
 1. **KMeans Clustering (Centroid-Based)**: Partitions data into $k$ distinct, non-overlapping clusters. It assigns data points to the nearest cluster mean (centroid).
-  ** Key Features:**
+
+   **Key Features:**
    Requires the number of clusters ($k$) to be specified beforehand.
    Uses the Elbow Method to help estimate the optimal $k$.
    Fast and efficient on large datasets.
    Works best when clusters are spherical and evenly sized.
 
 2.**DBSCAN (Density-Based)**: Groups together points that are closely packed, marking points that lie alone in low-density regions as outliers (noise).
-     **Key Features:**
+
+**Key Features:**
    Does not require the number of clusters to be specified.
    Can find arbitrarily shaped clusters (e.g., non-spherical).
    Excellent at identifying noise/outliers (a key advantage).
    Sensitive to parameters: eps (distance) and min_samples (density).
    
-3. **Principal Component Analysis (PCA)**: A dimensionality reduction technique. It transforms the data into a new set of "principal components" that capture the maximum possible variance.   
-  **Key Features:**
+3. **Principal Component Analysis (PCA)**: A dimensionality reduction technique. It transforms the data into a new set of "principal components" that capture the maximum possible variance.
+
+   **Key Features:**
 Used here to visualize 3+ dimensional data in 2D.
 Helps to see how well the clustering algorithms actually separated the data.
 Reduces noise by filtering out dimensions with low variance.
